@@ -5,6 +5,6 @@ Each project is inside its own folder — feel free to explore!
 
 ## 🧠 Projects Included
 
-### 🕐 [Stopwatch](./stopwatch)
+### 🕐 [Stopwatch](./Stop-watch)
 A basic stopwatch that can start, stop, and reset.  
 Built with pure JavaScript using `setInterval`, `Date.now()`, and time formatting logic.
