@@ -2,6 +2,7 @@ const amount = document.getElementById('amount');
 const tip = document.getElementById('tip');
 const total = document.getElementById('total');
 const calc = document.getElementById('calc');
+const empty = document.getElementById('error');
 
 function calculate(){
     if(amount.value == ''){
