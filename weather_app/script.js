@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   function weatherData(data) {
-    cityName.textContent = String(data.name);
+    cityName.textContent = data.name;
     const today = new Date();
 
     const options = {
