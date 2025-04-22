@@ -47,7 +47,7 @@ window.addEventListener("DOMContentLoaded", () => {
     temperature.textContent = `${data.main.temp}°C`;
     description.textContent = data.weather[0].description;
     speed.textContent = data.wind.speed + " m/s";
-    icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+    icon.src = `...`;
     console.log("Weather object:", data.weather);
     console.log("Icon code:", data.weather[0].icon);
   }
